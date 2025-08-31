@@ -1,0 +1,155 @@
+
+body {
+    background-color: white;
+    font-family: "Lexend", sans-serif;
+}
+
+.header {
+    color: #25D366;
+    margin: 20px;
+}
+
+
+h1, .header {
+    font-family: "Google Sans Code", monospace;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    font-style: normal;
+}
+
+/* NAVIGATION BAR */
+
+.navigation-bar {
+    background-color: #25D366;
+    padding: 10px;
+}
+
+.bg {
+    background-color: #25D366;
+}
+
+.subj {
+    padding-left: 20px;
+    display: grid;
+}
+
+.active {
+    font-size: 20px;
+}
+
+/* CAROUSEL */
+
+.carousel {
+    margin: 50px 0;
+}
+
+.carousel-text {
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.img {
+    border-radius: 100px;
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto;
+}
+
+.carousel-item {
+    padding: 30px 150px;
+    align-items: center;
+    text-align: center;
+}
+
+
+/* COURSE BUTTON */
+
+.course-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.course {
+    background-color: red;
+    padding: 10px;
+    margin: 10px;
+}
+
+.btn {
+    padding: 10px 10px;
+    margin: 30px;
+}
+
+/* FOOTER */
+
+#footer {
+    padding-top: 3rem;
+}
+
+.social {
+    text-align: center;
+}
+
+.fa-brands {
+    padding: 10px;
+}
+
+.fa-solid {
+    padding-right: 5px;
+}
+
+.text-center {
+    padding-top: 15px;
+}
+
+
+/* MATHS CSS */
+
+.check-btn {
+    margin: 20px;
+}
+.mother {
+    padding: 20px;
+}
+
+@media (width: 820px) {
+    .check-btn {
+        margin: 10px;
+    }
+}
+
+
+/* MEDIA QUERY FOR INDEX.HTML */
+
+@media (max-width: 1280px) {
+
+    .carousel-text{
+        font-size: 40px;
+    }
+
+    .carousel-item {
+        padding: 30px 15px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .course-btn {
+        display: block;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .btn-outline-success {
+        background-color: #198754;
+        color: white;
+    }
+}
