@@ -4,11 +4,6 @@ body {
     font-family: "Lexend", sans-serif;
 }
 
-.header {
-    color: #25D366;
-    margin: 20px;
-}
-
 
 h1, .header {
     font-family: "Google Sans Code", monospace;
@@ -23,6 +18,17 @@ h1, .header {
 .navigation-bar {
     background-color: #25D366;
     padding: 10px;
+}
+
+.navbar-main {
+    padding: 20px 100px;
+}
+.collapse {
+    margin-left: 7px;
+}
+
+.main1 {
+    font-size: small;
 }
 
 .bg {
@@ -70,7 +76,7 @@ h1, .header {
 /* COURSE BUTTON */
 
 .course-btn {
-    display: flex;
+    display: inline-block;
     justify-content: center;
     align-items: center;
     margin-top: 10px;
@@ -84,6 +90,11 @@ h1, .header {
 
 .btn {
     padding: 10px 10px;
+    margin: 30px;
+}
+
+.btn-main1 {
+    padding: 10px 100px;
     margin: 30px;
 }
 
