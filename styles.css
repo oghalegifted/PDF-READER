@@ -88,7 +88,7 @@ h1, .header {
     display: inline-block;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+    margin-top: 10px 30px;
 }
 
 .card-title {
@@ -111,7 +111,7 @@ h1, .header {
 }
 
 .btn-main1 {
-    padding: 10px 100px;
+    padding: 10px 50px;
     margin: 30px;
 }
 
@@ -151,6 +151,9 @@ h1, .header {
     .check-btn {
         margin: 10px;
     }
+    /* .navbar-main {
+        padding: 0;
+    } */
 }
 
 
@@ -161,6 +164,10 @@ h1, .header {
     .carousel-text{
         font-size: 40px;
     }
+
+    /* .navbar-main {
+        padding: 0;
+    } */
 
     .carousel-item {
         padding: 30px 15px;
