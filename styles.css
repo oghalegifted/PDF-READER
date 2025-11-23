@@ -27,6 +27,10 @@ h1, .header {
     margin-left: 7px;
 }
 
+.navbar-brand {
+    font-size: 25px;
+}
+
 .main1 {
     font-size: small;
 }
@@ -43,6 +47,11 @@ h1, .header {
 .active {
     font-size: 20px;
 }
+
+.parent {
+    margin: 50px 100px;
+    text-align: center;
+} 
 
 /* CAROUSEL */
 
@@ -82,6 +91,14 @@ h1, .header {
     margin-top: 10px;
 }
 
+.card-title {
+    font-size: 20px;
+}
+
+
+#yon {
+    text-align: center;
+}
 .course {
     background-color: red;
     padding: 10px;
