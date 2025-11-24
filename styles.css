@@ -189,6 +189,7 @@ h1, .header {
     }
 
     .btn-outline-success {
+        background-color: #198754;
         color: white;
     }
 }
