@@ -16,7 +16,6 @@ h1, .header {
 /* NAVIGATION BAR */
 
 .navigation-bar {
-    background-color: #25D366;
     padding: 10px;
 }
 
@@ -33,10 +32,6 @@ h1, .header {
 
 .main1 {
     font-size: small;
-}
-
-.bg {
-    background-color: #25D366;
 }
 
 .subj {
@@ -160,9 +155,6 @@ h1, .header {
         padding: auto;
         width: auto;
     }
-    /* .navbar-main {
-        padding: 0;
-    } */
 }
 
 
@@ -197,7 +189,6 @@ h1, .header {
     }
 
     .btn-outline-success {
-        background-color: #198754;
         color: white;
     }
 }
