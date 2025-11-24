@@ -147,9 +147,18 @@ h1, .header {
     padding: 20px;
 }
 
-@media (width: 820px) {
+@media (width: 381px) {
     .check-btn {
-        margin: 10px;
+        margin: auto;
+    }
+
+    .parent {
+        margin: 0;
+    } 
+
+    .download-card {
+        padding: auto;
+        width: auto;
     }
     /* .navbar-main {
         padding: 0;
@@ -164,6 +173,10 @@ h1, .header {
     .carousel-text{
         font-size: 40px;
     }
+
+    .parent {
+        margin: 0;
+    } 
 
     /* .navbar-main {
         padding: 0;
