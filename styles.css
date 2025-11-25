@@ -166,6 +166,10 @@ h1, .header {
         font-size: 40px;
     }
 
+    .navbar-main {
+        padding: 0;
+    }
+
     .parent {
         margin: 0;
     } 
