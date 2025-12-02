@@ -118,6 +118,7 @@ h1, .header {
 
 .social {
     text-align: center;
+    padding-bottom: 10px;
 }
 
 .fa-brands {
@@ -131,7 +132,6 @@ h1, .header {
 .text-center {
     padding-top: 15px;
 }
-
 
 /* MATHS CSS */
 
